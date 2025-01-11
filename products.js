@@ -3,14 +3,14 @@ let supermarkets = [
     name: "Grapes",
     category: "Produce",
     price: 4.29,
-    inStock: true,
+    inStock: "Yes",
   },
 
   {
     name: "Strawberry Yogurt",
     category: "Dairy",
     price: 2.15,
-    inStock: false,
+    inStock: "No",
   },
 ];
 
