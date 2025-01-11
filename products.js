@@ -18,10 +18,10 @@ function render(supermarkets) {
   for (let i = 0; i < supermarkets.length; i++) {
     let active;
     const supermarket = supermarkets[i];
-    if (supermarket.active) {
-      active = "Active";
+    if (supermarket.inStock) {
+      inStock = "YES";
     } else {
-      active = "Not Active";
+      inStock = "NO";
     }
 
     let bootstrap3 = `
